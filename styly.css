@@ -1,0 +1,147 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(img/kluziste-plocha.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.heading-photo img {
+    width: 285px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 65px;
+}
+
+
+.nav-bar-lists {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+}
+
+.nav-bar-list a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.secret-back {
+    height: 180px;
+    background: transparent;
+}
+
+.hr-red hr {
+    margin: 0;
+    background-color: #b91f33;
+    height: 2px;
+    border: none;
+}
+
+.hr-white hr {
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    height: 2px;
+    border: none;
+}
+
+.heading-title h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.heading-title-black h2 {
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.partners {
+    margin-top: 20px;
+}
+
+.partners-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners-photos img {
+    margin: 17px;
+}
+
+/* MAIN */
+.price-and-sharp-box {
+    display: flex;
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+.price-and-sharp-box h3 {
+    text-align: center;
+    font-weight: bold;
+}
+.price-box, .sharp-box {
+    /* border: 2px solid #b91f33; */
+    background-color: burlywood;
+    font-family: "Open Sans", sans-serif;
+    background-color: #b91f33;
+}
+
+.price-box {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+.sharp-box {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    width: 50%;
+}
+
+.empty-space-sharp {
+    height: 45px;
+    background-color: transparent;
+}
+
+.list-public-skating li, .list-hockey li, .list-opening-time li, .sharp-box p {
+    line-height: 1.8;
+}
+
+.sharp-box p {
+    width: 330px;
+    margin-left: 25px;
+}
