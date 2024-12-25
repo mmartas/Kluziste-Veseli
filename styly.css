@@ -99,20 +99,17 @@ header {
 }
 
 /* MAIN */
-.price-and-sharp-box {
+.price-and-sharp-and-contact-box {
     display: flex;
     margin-top: 20px;
     color: #fff;
-    
 }
 
-.price-and-sharp-box h3 {
+.price-and-sharp-and-contact-box h3 {
     text-align: center;
     font-weight: bold;
 }
-.price-box, .sharp-box {
-    /* border: 2px solid #b91f33; */
-    background-color: burlywood;
+.price-box, .sharp-box, .contact-box {
     font-family: "Open Sans", sans-serif;
     background-color: #b91f33;
 }
@@ -121,23 +118,27 @@ header {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 20px;
-    width: 50%;
+    width: 46.7%;
+    height: 100%;
     border-right: 1px solid white;
 }
 
 .sharp-box {
     border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
     padding: 20px;
-    width: 50%;
+    width: 99%;
+    height: 50%;
 }
 
-.empty-space-sharp {
-    height: 45px;
-    background-color: transparent;
+.contact-box {
+    height: 35%;
+    width: 99%;
+    border-top: 1px solid white;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-.list-public-skating li, .list-hockey li, .list-opening-time li, .sharp-box p {
+.list-public-skating li, .list-hockey li, .list-opening-time li, .list-contact li, .sharp-box p {
     line-height: 1.8;
 }
 
