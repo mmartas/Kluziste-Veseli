@@ -46,6 +46,7 @@ header {
     font-weight: bold;
     padding-bottom: 0px;
     border-bottom: 2px solid transparent;
+    transition: all 0.3s;
 }
 .nav-bar-list a:hover {
     text-decoration: none;
