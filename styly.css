@@ -44,7 +44,20 @@ header {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: bold;
+    padding-bottom: 0px;
+    border-bottom: 2px solid transparent;
 }
+.nav-bar-list a:hover {
+    text-decoration: none;
+    color: #b91f33;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #b91f33;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+
 
 .secret-back {
     height: 180px;
