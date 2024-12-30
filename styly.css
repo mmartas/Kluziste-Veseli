@@ -2,6 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -38,7 +39,9 @@ header {
     top: 120px;
 }
 
-.nav-bar-list a {
+.nav-bar-list a:visited,
+.nav-bar-list a:link {
+    cursor: pointer;
     text-decoration: none;
     color: #fff;
     font-family: "Open Sans", sans-serif;
@@ -47,8 +50,10 @@ header {
     padding-bottom: 0px;
     border-bottom: 2px solid transparent;
     transition: all 0.3s;
+    
 }
-.nav-bar-list a:hover {
+.nav-bar-list a:hover,
+.nav-bar-list a:active {
     text-decoration: none;
     color: #b91f33;
     font-family: "Open Sans", sans-serif;
@@ -113,9 +118,13 @@ header {
 }
 
 /* MAIN */
+.pricing-empty-space {
+    height: 40px;
+}
+
 .price-and-sharp-and-contact-box {
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 40px; */
     color: #fff;
 }
 
@@ -163,4 +172,13 @@ header {
 
 .list-contact {
     margin: 26px 0;
+}
+
+.webkamera {
+    margin-top: 60px;
+}
+
+.webkamera .hr-red {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
