@@ -3,11 +3,12 @@ body, html {
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
 }
 
 .row {
     width: 80%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -26,7 +27,6 @@ header {
     transform: translate(-50%, -50%);
     top: 65px;
 }
-
 
 .nav-bar-lists {
     display: flex;
@@ -122,60 +122,104 @@ header {
     height: 40px;
 }
 
-.price-and-sharp-and-contact-box {
+.price-and-sharpContact-box {
     display: flex;
-    /* margin-top: 40px; */
-    color: #fff;
-}
-
-.price-and-sharp-and-contact-box h3 {
-    text-align: center;
-    font-weight: bold;
-}
-.price-box, .sharp-box, .contact-box {
-    font-family: "Open Sans", sans-serif;
-    background-color: #b91f33;
 }
 
 .price-box {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #b91f33;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 20px;
-    width: 46.7%;
-    height: 100%;
-    border-right: 1px solid white;
+    color: black;
+    background: white;
+    transition: background-color 0.5s;
 }
-
-.sharp-box {
-    border-top-right-radius: 20px;
-    padding: 20px;
-    width: 99%;
-    height: 50%;
+.price-box:hover {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #b91f33;
+    transition: background-color 0.5s;
 }
-
-.contact-box {
-    height: 35%;
-    width: 99%;
-    border-top: 1px solid white;
-    padding: 20px;
-    border-bottom-right-radius: 20px;
+.price-box:hover .public-h3, .price-box:hover .heading-title-black-h2, .price-box:hover .list-public-skating, .price-box:hover .list-hockey  {
+    color: #fff;
+    transition: color 0.5s;
 }
-
-.list-public-skating li, .list-hockey li, .list-opening-time li, .list-contact li, .sharp-box p {
+.price-box:hover .hr-red hr {
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.price-box .list-public-skating, .price-box .list-hockey {
     line-height: 1.8;
 }
-
-.sharp-box p {
-    width: 330px;
-    margin-left: 25px;
+.public-h3 {
+    text-align: center;
 }
 
-.list-contact {
-    margin: 26px 0;
+
+
+.sharpContact-box {
+    width: 50%;
+    height: 447.64px;
 }
 
-.webkamera {
-    margin-top: 60px;
+.sharp-box, .contact-box {
+    padding: 20px;
+    height: 50%;
+}
+.sharp-box {
+    border-top: 2px solid #b91f33;
+    border-right: 2px solid #b91f33;
+    border-top-right-radius: 20px;
+}
+.sharp-box:hover  {
+    background-color: #b91f33;
+    transition: background-color 0.5s;
+}
+.sharp-box:hover .list-opening-time, .sharp-box:hover .sharp-box-paragraph, .sharp-box:hover .heading-title-black-h2 {
+    color: #fff;
+    transition: color 0.5s;
+}
+.sharp-box:hover .hr-red hr {
+    background-color: #fff;
+    transition:  background-color 0.5s;
+}
+
+
+.contact-box {
+    border-bottom: 2px solid #b91f33;
+    border-right: 2px solid #b91f33;
+    border-bottom-right-radius: 20px;
+}
+.contact-box:hover {
+    background-color: #b91f33;
+    transition: background-color 0.5s;
+}
+
+.contact-box:hover .heading-title-black-h2, .contact-box:hover .list-contact {
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.contact-box:hover .hr-red hr {
+    background-color: #fff;
+    transition:  background-color 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-box .list-contact, .sharp-box .list-opening-time, .sharp-box p {
+    line-height: 1.8;
 }
 
 .webkamera .hr-red {
