@@ -49,26 +49,38 @@
         display: none;
     }
 
+    .heading-photo {
+        display: none;
+    }
+
     #heading-photo-big-version {
         display: none;
     }
 
-    .heading-photo {
+    .heading-photo-small-version {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         height: 80px;
-        /* background-color: black; */
+        background-color: rgb(34, 32, 32);
         width: 100%;
         position: fixed;
         z-index: 100;
-    }
-    #heading-photo-small-version {
-        display: block;
-        width: auto;
+        align-items: center;
     }
 
-    #hamburger-menu-small-version {
+    #heading-photo-small-version-img {
         display: block;
-        width: auto;
+        
+    }
+
+    #hamburger-menu-small-version-img {
+        display: block;
+        transition: transform 0.5s;
+    }
+    
+    #hamburger-menu-small-version-img:hover {
+        display: block;
+        transform: scaleX(110%);
+        transition: transform 0.5s;
     }
 }
