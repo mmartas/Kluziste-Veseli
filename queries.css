@@ -1,0 +1,48 @@
+@media only screen and (max-width: 960px) {
+    .price-and-sharpContact-box {
+        display: flex;
+        height: 535px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .price-box, .sharpContact-box {
+        width: 100%;
+    }
+
+    .price-box {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .sharp-box {
+        border-left: 2px solid #b91f33;
+        border-bottom: 2px solid #b91f33;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #hr-red-sharp-contact {
+        display: none;
+    }
+    .contact-box {
+        border-left: 2px solid #b91f33;
+        border-top-right-radius: 20px;
+        border-top: 2px solid #b91f33;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .hr-red-heading {
+        display: none;
+    }
+}
