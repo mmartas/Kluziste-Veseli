@@ -11,6 +11,9 @@
         width: 100%;
     }
 
+    .sharpContact-box {
+        gap: 10px;
+    }
     .price-box {
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
