@@ -26,8 +26,16 @@ header {
     align-items: center;
 }
 
-.heading-photo img {
+#heading-photo-big-version {
     width: 285px;
+}
+
+#heading-photo-small-version {
+    display: none;
+}
+
+#hamburger-menu-small-version {
+    display: none;
 }
 
 .nav-bar-lists {

@@ -48,4 +48,27 @@
     .hr-red-heading {
         display: none;
     }
+
+    #heading-photo-big-version {
+        display: none;
+    }
+
+    .heading-photo {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        /* background-color: black; */
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    #heading-photo-small-version {
+        display: block;
+        width: auto;
+    }
+
+    #hamburger-menu-small-version {
+        display: block;
+        width: auto;
+    }
 }
