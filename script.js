@@ -7,5 +7,4 @@ let menuSmallVersion = document.querySelector(".menu-all-list-small-version")
 hamburgerMenu.addEventListener("click", function(event){
     fullSmallVersionBackground.classList.toggle("biggerBackground")
     menuSmallVersion.classList.toggle("displayOn")
-    hamburgerMenu.classList.toggle("rotated")
 })
