@@ -41,46 +41,80 @@
 
 
 @media only screen and (max-width: 770px) {
-    .nav-bar {
+    /* PŘI MALÉ VERZI ZMIZENÍ VELKÉHO NADPISU, MENU A ČÁRY A CELÉHO POZADÍ */
+    #heading-photo-big-version, .nav-bar-lists, .hr-red-heading, .heading-photo {
         display: none;
     }
 
-    .hr-red-heading {
-        display: none;
-    }
-
-    .heading-photo {
-        display: none;
-    }
-
-    #heading-photo-big-version {
-        display: none;
-    }
-
-    .heading-photo-small-version {
-        display: flex;
-        justify-content: space-around;
+    .full-background-small-version {
         height: 80px;
-        background-color: rgb(34, 32, 32);
-        width: 100%;
-        position: fixed;
-        z-index: 100;
-        align-items: center;
+        background-color: black;
+        position: relative;
+        transition: all 0.5s;
     }
 
-    #heading-photo-small-version-img {
+
+    #title-small-main-logo,  #hamburger-small-version {
         display: block;
-        
     }
 
-    #hamburger-menu-small-version-img {
-        display: block;
-        transition: transform 0.5s;
+    .menu-all-list-small-version {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        line-height: 1.5;
+        transition: all 0.5;
+        max-height: 0;
     }
-    
-    #hamburger-menu-small-version-img:hover {
-        display: block;
-        transform: scaleX(110%);
-        transition: transform 0.5s;
+
+    .menu-one-list-small-version {
+        list-style: none;
     }
+
+    .menu-one-list-small-version a {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
+
+    .menu-one-list-small-version a:hover {
+        color: #b91f33;
+        transition: all 0.3s;
+    }
+
+    #title-small-main-logo {
+        position: absolute;
+        top: 25px;
+        left: 50px;
+    }
+
+    #hamburger-small-version {
+        position: absolute;
+        top: 5px;
+        right: 50px;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    #hamburger-small-version:hover {
+        cursor: pointer;
+        transform: scaleX(1.1);
+    }
+
+    /* SCRIPT */
+    .biggerBackground {
+        height: 220px;
+        transition: all 0.5s;
+    }
+
+    .displayOn {
+        display: block;
+        transition: all 0.5s;
+    }
+
 }

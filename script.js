@@ -1,6 +1,11 @@
-let HamMenu = document.querySelector("#hamburger-menu-small-version-img")
-console.log(HamMenu)
+let hamburgerMenu = document.querySelector("#hamburger-small-version")
 
-HamMenu.addEventListener("click", function(event){
-    
+let fullSmallVersionBackground = document.querySelector(".full-background-small-version")
+
+let menuSmallVersion = document.querySelector(".menu-all-list-small-version")
+
+hamburgerMenu.addEventListener("click", function(event){
+    fullSmallVersionBackground.classList.toggle("biggerBackground")
+    menuSmallVersion.classList.toggle("displayOn")
+    hamburgerMenu.classList.toggle("rotated")
 })

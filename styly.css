@@ -30,13 +30,6 @@ header {
     width: 285px;
 }
 
-#heading-photo-small-version-img {
-    display: none;
-}
-
-#hamburger-menu-small-version-img {
-    display: none;
-}
 
 .nav-bar-lists {
     display: flex;
@@ -77,7 +70,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    top: 150px;
+    top: 20%;
     letter-spacing: 1.8px;
     word-spacing: 1.5px;
     line-height: 1.8;
@@ -249,3 +242,16 @@ header {
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+
+/*
+    SMALL VERSION
+*/
+/* PŘI VELKÉ VERZI SKRYTÍ MALÉHO LOGO, MENY A HAMBURGER ICON */
+#title-small-main-logo, .menu-all-list-small-version, #hamburger-small-version {
+    display: none;
+}
+
+
+
+
