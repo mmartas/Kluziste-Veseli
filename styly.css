@@ -69,8 +69,10 @@ header {
 #main-heading {
     color: #fff;
     text-transform: uppercase;
-    position: relative;
-    top: 20%;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
     letter-spacing: 1.8px;
     word-spacing: 1.5px;
     line-height: 1.8;
@@ -248,8 +250,14 @@ header {
     SMALL VERSION
 */
 /* PŘI VELKÉ VERZI SKRYTÍ MALÉHO LOGO, MENY A HAMBURGER ICON */
-#title-small-main-logo, .menu-all-list-small-version, #hamburger-small-version {
+#title-small-main-logo, #hamburger-small-version {
     display: none;
+}
+
+.menu-all-list-small-version {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
 }
 
 

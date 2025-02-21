@@ -65,8 +65,8 @@
         top: 80px;
         left: 50px;
         line-height: 1.5;
-        transition: all 0.5s;
-        max-height: 0;
+        /* transition: all 0.5s; */
+        max-height: 200px;
     }
 
     .menu-one-list-small-version {
@@ -109,12 +109,13 @@
     /* SCRIPT */
     .biggerBackground {
         height: 220px;
-        transition: all 0.5s;
+        transition: all 0.3s;
     }
 
     .displayOn {
-        display: block;
-        transition: all 0.5s;
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.8s;
     }
 
 }
