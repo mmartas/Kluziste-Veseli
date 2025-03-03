@@ -7,9 +7,7 @@ body, html {
 }
 
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .row {
@@ -187,6 +185,7 @@ header {
 }
 .public-h3 {
     text-align: center;
+    margin: 1em 0;
 }
 
 
@@ -244,6 +243,7 @@ header {
 
 .contact-box .list-contact, .sharp-box .list-opening-time, .sharp-box p {
     line-height: 1.8;
+    margin: 1em 0;
 }
 
 .webkamera .hr-red {
